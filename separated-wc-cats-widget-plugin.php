@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:   Separated by Parent Product Categories Widget
+ * Plugin Name:   Woocommerce Separated Category Catalog Widget
  * Description:   Created Category widget with separated categories by parent category.
  * Version:       1.0
  * Author:        Kairzhan Turmagambetov
@@ -12,9 +12,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
-	if ( ! class_exists( 'WC_Widget_Product_Categories' ) ) {
+	if ( ! class_exists( 'WC_Widget' ) ) {
 		require_once ABSPATH . 'wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-widget.php';
-		require_once ABSPATH . 'wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-product-categories.php';
 	}
 
 	class WC_SeparatedByParent_Widget_Product_Categories extends WC_Widget {
