@@ -1,2 +1,2 @@
-# Woocommerce Separated Category Catalog Widget 
+#  Separated by Parent Product Categories Widget for WooCommerce
 

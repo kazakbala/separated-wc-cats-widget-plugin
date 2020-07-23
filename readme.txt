@@ -1,4 +1,4 @@
-=== Woocommerce Separated Category Catalog Widget ===
+===  Separated by Parent Product Categories Widget for WooCommerce ===
 Contributors: kairzhan79
 Tags: woocommerce, catalog
 Requires at least: 5.2
